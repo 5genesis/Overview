@@ -7,4 +7,6 @@ A high level overview of the 5GENESIS Components
 * [ELCM](https://github.com/5genesis/ELCM/tree/release_A)
 * [TAP Plugin](https://github.com/5genesis/TAP-plugins/tree/release_A)
 * [Slice Manager](https://github.com/5genesis/katana-slice_manager/tree/Release_A)
-* [Analytics](https://github.com/5genesis/Analytics/tree/Release-A)
+* Analytics
+  * [Statistical Analysis](https://github.com/5genesis/Analytics/tree/Release-A) 
+  * [Machine Learning Analysis](https://gitlab.fokus.fraunhofer.de/5genesis/analytics/tree/Release-A)
