@@ -1,4 +1,4 @@
-# Overview
+## Overview
 
 The 5GENESIS architecture is structured in three main blocks: Coordination Layer, Management and Orchestration (MANO) Layer and Infrastructure Layer.
 Following a top-down description of the 5GENESIS architecture, we start with the Coordination layer. This layer offers all the components of the 5GENESIS experimentation framework relevant to experiments, as well as the experiment facing Application Programming Interfaces (APIs) and User Interfaces (UIs). In detail the Coordination Layer provides Northbound Interfaces (NBI) for the Experimenter, the 5GENESIS Portal and the Open APIs. Via the Portal, the Experimenter can be authenticated, on-board vertical application components, submit experiment requests and, after the execution of the experiment, acquire measurements (either raw or processed). During the experimentation, the Experiment Lifecycle Manager (ELCM) is responsible for the experiment lifecycle stages sequencing, by maintaining the experiment status and providing feedbacks. 
@@ -6,7 +6,7 @@ The analytics component of the Coordination Layer is responsible for the complet
 In light of state-of-the-art network monitoring and analytics functionalities, the 5GENESIS Monitor and Analytics (M&A) framework positions itself as a key enabler for a complete validation of 5G KPIs.
 In the Management and Orchestration Layer, the Slice Manager is in charge of the configuration and deployment of the slices. This also implies the access to the components available at the Infrastructure Layer. 
 
-# Main features of Release A
+## Main features of Release A
 The Release A of the 5GENESIS Coordination Layer and that of the platforms provide some baseline functionalities in order to allow initial integration at the platforms, thus enabling the first phase of experimentation. Release A provides the support for the execution of Tests Cases and the collection of results. In the forthcoming releases (B and C) the whole automation cycle will be further automated and additional features will enhance the experimentation capabilities and KPI validations for the vertical Experimenters. In a nutshell, the prominent features available after the installation of the Release A codebase are summarised:
 
 Portal
@@ -46,9 +46,9 @@ NMS
 •	Performance monitoring tools for Android: resource usage, latency and throughput probes
 •	Remotely controlled latency and throughput probes for Personal Computer (PC)	Release A Repository / OPENTAP repository
 
-# A high level overview of the 5GENESIS Components
+## A high-level overview of the 5GENESIS Components
 
-## Release A
+### Release A
 
 * [Portal](https://github.com/5genesis/Portal/tree/release_A)
 * [ELCM](https://github.com/5genesis/ELCM/tree/release_A)
